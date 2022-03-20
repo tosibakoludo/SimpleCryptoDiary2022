@@ -14,7 +14,7 @@ namespace SimpleCryptoDiary2022
 
         public static SimpleCryptoDiary2022DataSetTableAdapters.UlaganjeTableAdapter ad2 = new SimpleCryptoDiary2022DataSetTableAdapters.UlaganjeTableAdapter();
 
-        public static void Main()
+        static void Main()
         {
 
             List<Cryptocurrency> cryptocurrencies = new List<Cryptocurrency>();

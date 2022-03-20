@@ -83,7 +83,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cryptocurrencies.txt" />
+    <Content Include="cryptocurrencies.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="SimpleCryptoDiary2022.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
