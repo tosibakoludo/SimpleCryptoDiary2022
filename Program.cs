@@ -254,7 +254,7 @@ namespace SimpleCryptoDiary2022
                 {
                     if (r[0].ToString() == user.Name)
                     {
-                        Investment i = new Investment(int.Parse(r[1].ToString()), r[2].ToString(), double.Parse(r[3].ToString()), double.Parse(r[4].ToString()), r[5].ToString());
+                        Investment i = new Investment(int.Parse(r[1].ToString()), r[2].ToString(), double.Parse(r[3].ToString()), double.Parse(r[4].ToString()), r[5].ToString().ToLower());
                         user.Investments.Add(i);
                     }
                 }
